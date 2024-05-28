@@ -8,17 +8,20 @@ The assumption is that you have Docker[https://www.docker.com/products/docker-de
 Step 1. Download this dockerfile and save it in a directory. Edit your dockerfile as you see fit (e.g. this one is geared towards Macbook silicon with `FROM arm64v8/ubuntu:latest`).  
 -> [dockerfile source code](dockerfile)
 
-Step 2.
+Step 2.  
 Navigate to that directory  
 `cd <wherever your dockerfile is>`
 
-Build the container  
-Remember to replace your REGION and APIKEY accordingly  
+Step 3.  
+Build the container.  
+Remember to replace your REGION and APIKEY accordingly.  
 `docker build --build-arg REGION=usw2a1 --build-arg APIKEY=yourRocksetAPIkeyhere -t grafana-prometheus .`
 
+Step 4.  
 Run the container  
 `docker run -p 9090:9090 -p 3000:3000 grafana-prometheus`
 
+Step 5.  
 Access prometheus and grafana  
 Prometheus - running on `http://localhost:9090/`  
 Grafana - running on `http://localhost:3000/`
