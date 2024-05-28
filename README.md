@@ -1,10 +1,8 @@
 # DockerForRocksetMetrics
-A simple docker container to run Prometheus and Grafana to access your Rockset REST metrics endpoint!
-
-Note this works on Apple silicon macbook pros, but feel free to edit this however you wish.  
+A simple docker container to run Prometheus and Grafana to access your Rockset REST metrics endpoint!    
 
 ## Assumptions
-The assumption is that you have Docker[https://www.docker.com/products/docker-desktop/] installed.  
+The assumption is that you have Docker[https://www.docker.com/products/docker-desktop/] installed. For instance, this runs on a Macbook silicon fine, but you can run it wherever Docker is supported.
 
 ## Steps
 Step 1. Download this dockerfile and save it in a directory  
