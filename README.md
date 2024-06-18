@@ -40,3 +40,9 @@ e.g. `/opt/prometheus/prometheus.yml`
 `prometheus --config.file=/opt/prometheus/prometheus.yml --storage.tsdb.path=/opt/prometheus/data`
 
 `grafana-server --homepath=/opt/grafana`
+
+## Now you can have fun!
+![image](https://github.com/scottsappen/DockerForRocksetMetrics/assets/2436969/fbebd397-2faa-42ab-a369-0d933ba762d5)
+
+![image](https://github.com/scottsappen/DockerForRocksetMetrics/assets/2436969/d6280ecf-81f4-4bfa-90c2-0673a29a140c)
+
